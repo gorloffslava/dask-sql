@@ -84,7 +84,7 @@ include = [
     { path = "Cargo.lock", format = "sdist" }
 ]
 exclude = [".github/**", "continuous_integration/**"]
-locked = true
+locked = false
 
 [tool.isort]
 profile = "black"
